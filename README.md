@@ -1,4 +1,4 @@
-# hubot-pugme
+# hubot-pugme-reddit
 
 Pugme is the most important hubot script
 
@@ -10,13 +10,13 @@ Forked from https://github.com/hubot-scripts/hubot-pugme which relies on a herok
 
 In hubot project repo, run:
 
-`npm install hubot-pugme --save`
+`npm install git+https://github.com/anupdhml/hubot-pugme-reddit --save`
 
-Then add **hubot-pugme** to your `external-scripts.json`:
+Then add **hubot-pugme-reddit** to your `external-scripts.json`:
 
 ```json
 [
-  "hubot-pugme"
+  "hubot-pugme-reddit"
 ]
 ```
 
