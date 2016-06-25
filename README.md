@@ -4,6 +4,8 @@ Pugme is the most important hubot script
 
 See [`src/pugme.coffee`](src/pugme.coffee) for full documentation.
 
+Forked from https://github.com/hubot-scripts/hubot-pugme which relies on a heroku app. This version pulls pugs from [reddit](https://www.reddit.com/r/pugs).
+
 ## Installation
 
 In hubot project repo, run:
@@ -22,10 +24,10 @@ Then add **hubot-pugme** to your `external-scripts.json`:
 
 ```
 user1>> hubot pug me
-hubot>> http://30.media.tumblr.com/tumblr_lj50gs8rAX1qaa50yo1_500.jpg
+hubot>> http://imgur.com/PMlOozd
 user1>> hubot pug bomb me
-hubot>> http://30.media.tumblr.com/tumblr_lj50gs8rAX1qaa50yo1_500.jpg
-hubot>> http://24.media.tumblr.com/95a84579fa297844891b3ab1a5c76c0a/tumblr_mooibbcKl51rylzllo1_500.jpg
-hubot>> http://27.media.tumblr.com/tumblr_ll5akuIrji1qk3h3co1_500.png
-hubot>> http://29.media.tumblr.com/tumblr_ll3xcmS6Bh1qb08qmo1_500.jpg
+hubot>> http://imgur.com/6R752BY
+hubot>> https://scontent-lhr3-1.xx.fbcdn.net/t31.0-8/13497991_789139941186193_5479447522257473316_o.jpg
+hubot>> http://i.imgur.com/z7OfpjG.jpg
+hubot>> http://imgur.com/PMlOozd
 ```

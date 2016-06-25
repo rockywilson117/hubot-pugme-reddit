@@ -1,16 +1,16 @@
 {
-  "name": "hubot-pugme",
-  "description": "Pugme is the most important hubot script",
-  "version": "0.1.0",
-  "author": "Josh Nichols <technicalpickles@github.com>",
+  "name": "hubot-pugme-reddit",
+  "description": "Pugme is the most important hubot script (reddit version)",
+  "version": "1.0.0",
+  "author": "Anup Dhamala <anupdhml+git@gmail.com>",
   "license": "MIT",
   "keywords": "hubot, hubot-scripts, pugs",
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-pugme.git"
+    "url": "git://github.com/anupdhml/hubot-pugme-reddit.git"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-pugme/issues"
+    "url": "https://github.com/anupdhml/hubot-pugme-reddit/issues"
   },
   "dependencies": {
     "underscore": "*"
