@@ -20,7 +20,9 @@ module.exports = (robot) ->
     if not count
       count = if (msg.match.input.match /bomb/i)? then 5 else 1
       dogtype = _.sample(dogarray)
-    msg.http("http://www.reddit.com/r/#{dogtype}.json?sort=top&t=week")
+      url = "https://www.reddit.com/r/#{dogtype}.json?sort=top&t=week"
+      robot.logger.info url
+    msg.http(url)
     .get() (err, res, body) ->
       try
         dogs = getDogs(body, count)
